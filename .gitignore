@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+outputs/
+*.pt
+*.onnx
+*.tflite
+*.mlpackage
+.DS_Store
+.env
+wandb/
