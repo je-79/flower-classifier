@@ -9,3 +9,6 @@ outputs/
 .DS_Store
 .env
 wandb/
+
+# allow model for Render deploy
+!outputs/exports/flower_classifier.onnx

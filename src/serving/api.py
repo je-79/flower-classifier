@@ -50,3 +50,8 @@ async def predict(file: UploadFile = File(...)):
         "latency_ms"  : latency,
         "warning"     : None if confident else "Low confidence — result may be uncertain"
     })
+
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
