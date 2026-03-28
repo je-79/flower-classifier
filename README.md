@@ -5,7 +5,7 @@ End-to-end ML project: train, export, and serve a flower classification model ac
 ## Model
 - Architecture: EfficientNetV2-S
 - Dataset: Oxford Flowers 102 (102 species)
-- Training: PyTorch on Apple M3
+- Training: PyTorch 
 
 ## Serving
 | Platform | URL | Use case |
